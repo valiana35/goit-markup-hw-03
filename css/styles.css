@@ -32,6 +32,10 @@ margin: 0 auto;
     padding-top: 24px;
     padding-bottom: 24px;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+}
 .header-navigation {
     display: flex;
     align-items: center;
@@ -70,6 +74,7 @@ color: var(--OCEAN, #404BBF);
 font-style: normal;
 }
 .header-address-list {
+display: flex;
 gap: 14px;
 margin-right: auto;
 }
@@ -124,6 +129,18 @@ background-color: var(--OCEAN, #404BBF);
 margin-top: 120px;
 margin-bottom: 100px;
 }
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+  }
 .assignments-list {
 display: flex;
 gap: 24px;
@@ -256,4 +273,5 @@ color: var(--CLOUD, #F4F4FD);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
