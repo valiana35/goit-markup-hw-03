@@ -56,9 +56,9 @@ color: var(--NAVY-BLUE, #2E2F42);
 .header-menu-list {
 display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 .header-menu-item {
-  padding: 24px 0;
 }
 .header-menu-link {
 color: var(--NAVY-BLUE, #2E2F42);
